@@ -1,0 +1,163 @@
+<extend name="./Apps/JankzMaker/View/Public/main.html" />
+<block name="metatitle"><title>{{$meta_title}}</title></block>
+<block name="my_css"></block>
+<block name="main">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <a class="btn-primary btn-sm" href="javascript:location.replace(location.href);">
+                    <i class="fa fa-refresh"></i></a>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="form_basic.html#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="form_basic.html#">选项1</a>
+                            </li>
+                            <li><a href="form_basic.html#">选项2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <form method="post" class="form-horizontal" action="{{$post_url}}">
+                        <!-- 此处不分栏 -->
+                        <if condition="$set_coulmn eq 1">
+                            <div class="col-sm-12">
+                                <volist name="form_items" id="item">
+                                    <switch name="item.type">
+                                        <include file="Apps/JankzMaker/View/Common/case.html" />
+                                    </switch>
+                                </volist>
+                            </div>
+                        </if>
+
+                        <!-- 此处分两栏 -->
+                        <if condition="$set_coulmn eq 2">
+                            <div class="col-sm-6">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 1">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 2">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                        </if>
+
+                        <!-- 此处分三栏 -->
+                        <if condition="$set_coulmn eq 3">
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 1">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 2">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 3">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                        </if>
+
+                        <!-- 此处分四栏 不建议 -->
+                        <if condition="$set_coulmn eq 4">
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 1">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 2">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 3">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                            <div class="col-sm-4">
+                                <volist name="page_items" id="item">
+                                    <if condition="$item.coulmn eq 4">
+                                        <switch name="item.type">
+                                            <include file="Apps/JankzMaker/View/Common/case.html" />
+                                        </switch>
+                                    </if>
+                                </volist>
+                            </div>
+                        </if>
+
+                        <div class="form-group">
+                            <div class="col-sm-4 col-sm-offset-2">
+                                <button class="btn btn-primary" type="button">保存内容</button>
+                                <button class="btn btn-white" type="submit">取消</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="my_js">
+<script type="text/javascript">
+	$(document).ready(function(){
+	      $("button[type=button]").click(function(){
+	        $.ajax({
+	            type:'POST',
+	            url:$("form").attr("action"),
+	            data:$("form").serialize(),
+	            success:function(response,status,xhr){
+	               layer.msg(response.info);
+	            }
+	        });
+	    });
+	});
+</script>
+</block>

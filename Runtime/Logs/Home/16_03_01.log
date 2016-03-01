@@ -1,0 +1,319 @@
+[ 2016-03-01T05:06:11+08:00 ] ::1 /HSC/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000580s ]
+
+[ 2016-03-01T05:18:14+08:00 ] ::1 /HSC/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000241s ]
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/css/style.min.css?v=4.0.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/css/bootstrap.min.css?v=3.3.5
+ERR: 非法操作:css
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T06:43:14+08:00 ] ::1 /HSC/index.php/Home/Notice/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/css/style.min.css?v=4.0.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:19+08:00 ] ::1 /HSC/index.php/Home/Notice/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/css/font-awesome.min.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T06:47:22+08:00 ] ::1 /HSC/index.php/Home/Notice/css/style.min.css?v=4.0.0
+ERR: 非法操作:css
+
+[ 2016-03-01T06:58:42+08:00 ] ::1 /HSC/index.php/Home/Notice/_PUBLIC__/Common/hplus/css/animate.min.css
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-03-01T06:58:42+08:00 ] ::1 /HSC/index.php/Home/Notice/_PUBLIC__/Common/hplus/css/style.min.css?v=4.0.0
+ERR: 非法操作:_PUBLIC__
+
+[ 2016-03-01T08:10:28+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T08:50:57+08:00 ] ::1 /HSC/index.php/Home/Query/index.html
+ERR: 模板不存在:./Apps/Home/View/Query/index.html
+
+[ 2016-03-01T16:23:51+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T17:58:55+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T19:38:48+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T19:38:52+08:00 ] ::1 /HSC/index.php/Home/Share/index.html
+ERR: 模板不存在:./Apps/Home/View/Share/index.html
+
+[ 2016-03-01T19:39:14+08:00 ] ::1 /HSC/index.php/Home/Share/index.html
+ERR: 模板不存在:./Apps/Home/View/Share/index.html
+
+[ 2016-03-01T19:51:03+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T19:51:32+08:00 ] ::1 /HSC/index.php/Home/Share/index.html
+ERR: 模板不存在:./Apps/Home/View/Share/index.html
+
+[ 2016-03-01T19:51:35+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T20:25:12+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T20:46:32+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T20:47:28+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T21:21:19+08:00 ] ::1 /HSC/index.php/Home/Recomend/index.html
+ERR: 模板不存在:./Apps/Home/View/Recomend/index.html
+
+[ 2016-03-01T21:42:34+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:42:34+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:42:34+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:42:34+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:42:34+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:46:51+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:46:51+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:46:51+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:46:51+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:46:51+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:48:44+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:48:44+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:48:44+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:48:44+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:48:44+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:15+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:15+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:15+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:15+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:15+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:53+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:53+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:53+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:53+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:50:53+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:53:54+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:53:54+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:53:54+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:53:54+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:53:54+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:38+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:38+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:38+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:38+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:55:39+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:56:25+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:56:25+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:56:25+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:56:25+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:56:26+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:57:37+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:57:37+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:57:37+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:57:37+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:57:37+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:58:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-03-01T21:58:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:58:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
+[ 2016-03-01T21:58:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/bootstrap.min.js?v=3.3.5
+ERR: 非法操作:js
+
+[ 2016-03-01T21:58:04+08:00 ] ::1 /HSC/index.php/Home/Index/js/plugins/iCheck/icheck.min.js
+ERR: 非法操作:js
+
